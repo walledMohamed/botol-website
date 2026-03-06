@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0; ;
+}
+
+/* start nav */
+
+
+.navbar {
+position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background: #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.logo .dot {
+  color: #3dd2b3;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #3dd2b3;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #3dd2b3;
+  font-size: 13px;
+}
+
+.login-btn i {
+  color: #3dd2b3;
+}
+
+/* end nav */
+/* start m-home */
+
+.m-home .one-page{
+    background-image: url('img/home_img.avif');
+    width: 100%;
+    height: 1048px;
+} 
+.o-p{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    color: #fff;
+    z-index: 55;
+}
+.o-p .CO-WORKING{
+    font-size: 110px;
+    letter-spacing: 2px;
+    
+}
+.o-p .INNOVATIVE{
+    letter-spacing: 8px;
+    word-spacing: 5px;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.o-p .book{
+    width: 190px;
+    padding-top:20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    margin: auto;
+    height: 50px;
+    background-color: rgba(44, 205, 149, 0.888);
+}
+
+
+
+.about-as{
+    width: 100%;
+    height: 817px;
+ 
+}
+.about-as .about-img{
+    background-image: url('img/about.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.about-counten{
+    background-color: #ffffff;
+    width: 35%;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    padding: 50px;
+}
+.about-counten h1{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+    
+}
+.about-counten p{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 35px;
+    color: #323232cf;
+
+    
+
+
+}
+
+/* end m-home */
+
+/* start our-page */
+.our-page{
+    width: 100%;
+    height: 682px;
+}
+.our-page .header-our {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 80px;
+
+}
+
+.our-page .header-our .h1-our{
+        font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+
+}
+.our-page .header-our .p-our{
+    color: #323232cf;
+    width: 30%;
+    margin: auto;
+    margin-bottom:30px ;
+}
+.photo-our{
+    width: 100%;
+    text-align: center;
+        margin-top: 200px;
+}
+.photo-our img{
+    width: 480px;
+    height: 300px;
+    margin-right: 20px;
+}
+/* end our-page */
+/* start spaces */
+.spaces{
+    width: 100%;
+    height: 1200px;
+    
+    
+}
+.header-space{
+    background-color: #3dd2b3;
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+
+}
+.header-space h1{
+    
+            font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+.header-space p{
+        letter-spacing: 1px;
+        font-size: 16px;
+    word-spacing: 1px;
+    line-height: 35px;
+    color: #323232cf;
+}
+.spaces-img{
+    width: 100%;
+    text-align: center;
+}
+.spaces-img img{
+    width: 750px;
+    height: 450px;
+}
+
+/* end spaces */
+
+/*  start MEMBERSHIP*/
+.MEMBERSHIP{
+    width: 100%;
+    height: 300px;
+    margin-top:30px ;
+    margin: auto;
+    text-align: center;
+    
+}
+.header-MEMBERSHIP h1{
+    font-size: 40px;
+        text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+.header-MEMBERSHIP p{
+            letter-spacing: 1px;
+        font-size: 16px;
+    word-spacing: 1px;
+    line-height: 35px;
+    color: #323232cf;
+}
+.io-m{
+    width: 70%;
+    display: flex;
+   
+    margin: auto;
+     justify-content: space-between;
+    flex-flow: wrap row;
+    margin-top: 50px;
+    
+
+}
+.io{
+    margin-right: 20px;
+    width: 250px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.io img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+.io p{
+            letter-spacing: 1px;
+        font-size: 12px;
+    word-spacing: 1px;
+    line-height: 35px;
+    color: #323232cf;
+    width: 400px;
+}
+
+
+/*  end MEMBERSHIP*/
+
+
+/* end home page */
